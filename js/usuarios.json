@@ -1,0 +1,18 @@
+[
+    {
+        "Nombre": "Jesus Joel",
+        "Apellidos": "Gonzalez Castro",
+        "email": "jjgonzalez@itsa.edu.co",
+        "Tipo": "Administrador",
+        "Usuario": "JesusJoel",
+        "Contraseña": "admin"
+    },
+    {
+        "Nombre": "Carlos Jose",
+        "Apellidos": "Martinez Mosquera",
+        "email": "Cjmosquera@itsa.edu.co",
+        "Tipo": "Asesor",
+        "Usuario": "CarlosJose",
+        "Contraseña": "asesor"
+    }
+]

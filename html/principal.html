@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Principal</title>
+    <meta name="author" content="Carlos José Martínez Mosquera & Jesús Joel González Castro">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body class="bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="../img/logo-farmacia.jpg" alt="" width="300" height="50">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav nav-pills navbar-nav ">
+                <li class="nav-item"><a class="nav-link active" href="principal.html">Principal</a></li>
+                <li class="nav-item"><a class="nav-link" href="conocenos.html">Conocénos</a></li>
+                <li class="nav-item"><a class="nav-link" href="catalogo.html">Catálogo</a></li>
+                <li class="nav-item"><a class="nav-link" href="proveedores.html">Proveedores</a></li>
+                <li class="nav-item "><a class="nav-link" href="contactenos.html">Contáctenos</a></li>
+                <li class="nav-item ms-5"><input type="button" value="Salir" onclick="salir()" class="btn btn-danger">
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!---Fin navbar-->
+    <div class="container">
+        <div class="row">
+            <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+                <article>
+                    <hgroup>
+                        <h1>Conocénos</h1>
+                        <h2><i>Introducción</i></h2>
+                    </hgroup>
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oh7mo9eQePg"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen class="mb-4"></iframe>
+                        <p>Nuestra Cooperativa Farmacia, comercializa productos y servicios bajo la marca comercial La
+                            Farmacia por medio de una red de puntos de venta ubicados estratégicamente en todo el
+                            territorio Nacional.</p>
+
+                        <address>
+                            <a href="html/conocenos.html"><u>Detalles</u></a>
+                        </address>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-2 d-none d-sm-block d-md-block d-lg-block">
+                <div class="card text-white bg-primary mt-5" style="max-width: 18rem;">
+                    <div class="card-header">
+                        ¡Descuentos de hoy</div>
+                    <div class="card-body">
+                        <h5 class="card-title">desde el 70% en adelante!</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+                <article>
+                    <hgroup>
+                        <h1>Nuestro Catálogo</h1>
+                        <h2><i>Lista de productos</i></h2>
+                        <time datetime="1-02-2021">Última actualización: 1/02/2021</time>
+                    </hgroup>
+
+                    <img src="../img/farmacia-1.jpg" alt="Extraído de metrolatam.com" width="250px" class="mb-4">
+                    <p>El ejemplo más claro de nuestra consolidación empresarial, es la expansión por el territorio
+                        Colombiano, llegando a superar los 800 puntos de venta a nivel Nacional, haciendo presencia en
+                        más de 198 municipios, 950 Puntos de Venta, más de 6600 empleos directos, aportando igualmente
+                        al crecimiento y desarrollo de las diferentes regiones del país donde hacemos presencia con
+                        nuestros puntos de venta La Farmacia Droguerías.</p>
+
+                    <address class="d-block d-sm-none">
+                        <a href="html/catalogo.html"><u>Detalles</u></a>
+                    </address>
+                </article>
+
+                <article>
+                    <hgroup>
+                        <h1>Nuestros Proveedores</h1>
+                        <h2><i>Calidad profesional</i></h2>
+                    </hgroup>
+                    <img src="../img/farmacia-2.jpg" alt="Extraído de Kokliang || Shutterstock" width="250px "
+                        class="mb-4">
+                    <p>Nuestra cooperativa Farmacia, se proyecta como una institución reconocida en el sector solidario,
+                        que propende por el bienestar y el desarrollo de sus asociados y familias, contribuyendo al
+                        mejoramiento de su calidad de vida, mediante la prestación de servicios integrales y
+                        comercialización de productos que generan beneficios a toda la comunidad. Somos una institución
+                        que trabaja por la generación de capital social, pero sin desdibujar nuestro objetivo principal,
+                        el desarrollo personal y profesional de sus asociados- trabajadores, participando en la
+                        construcción de mayores y mejores condiciones de bienestar para ellos, sus familias y la
+                        comunidad.</p>
+
+                    <address>
+                        <a href="html/proveedores.html"><u>Detalles</u></a>
+                    </address>
+                </article>
+
+                <article>
+                    <hgroup>
+                        <h1>¡Contáctanos!</h1>
+                        <h2><i>Agendamiento de citas</i></h2>
+                        <time>Lunes & Viernes</time>
+                    </hgroup>
+                    <img src="../img/farmacia-3.jpg" alt="Extraído de unab.com.co" width="250px" class="mb-4">
+                    <p>El objetivo primordial de nuestra cooperativa está centrado en optimizar y potencializar su
+                        talento humano procurando siempre el mejoramiento de la calidad de vida de sus asociados
+                        –trabajadores y sus familias lográndolo a través de los diferentes programas de otorgamiento de
+                        beneficios, reconocimientos y contribuciones, es por esto, por la calidad, el esfuerzo y la
+                        dedicación de cada uno de sus asociados – trabajadores que Farmacia se ha posicionado con gran
+                        éxito dentro del mercado Farmacéutico.</p>
+
+                    <address>
+                        <a href="html/contactenos.html"><u>Detalles</u></a>
+                    </address>
+                    <br><br><br>
+                </article>
+            </div>
+
+            <div class="col-2 d-none d-sm-block d-md-block d-lg-block">
+                <div class="card text-white bg-primary mb-3 d-none d-lg-block" style="max-width: 18rem;">
+                    <div class="card-header">
+                        Frases
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text"><i>Recuerda seguir el protocolo de bioseguridad establecido por el Gobierno
+                                Nacional.</i><br><br>
+                            <i>«<b>Una vida vivida con miedo es una vida medio vivida</b>», declara un personaje en la
+                                película australiana de 1992 «Strictly Ballroom», en una línea atribuida al director y
+                                coguionista de la película, Baz Luhrmann.</i><br><br>
+                            <i>En «Puente de los espías» (2015) de Steven Spielberg, película escrita por Matt Charman y
+                                los hermanos Coen, repite las variaciones de este sabio intercambio entre personajes:
+                                <b>«¿No estás preocupado?», dice uno. «¿Eso ayudaría?», responde el
+                                    otro</b>.</i><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="pie text-center card-footer bg-primary text-white">
+        Copyright © 2021 Martínez & González. Todos los derechos reservados
+    </footer>
+    <script src="../js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
